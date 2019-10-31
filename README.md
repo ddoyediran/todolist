@@ -1,5 +1,5 @@
-## Project Name: Issue or Task Tracker project
-This is an Issue or Task Tracker project. A work in porgress. I'll keep updating this project from time to time.  
+## Project Name: Issue or Task Tracker web application
+This is an Issue or Task Tracker web application. A work in porgress. I'll keep updating this project from time to time.  
 
 Contributions are allow. 
 
