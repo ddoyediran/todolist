@@ -2,13 +2,22 @@
   "name": "task-tracker",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ddoyediran.github.io/todolist",
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.25",
+    "@fortawesome/free-solid-svg-icons": "^5.11.2",
+    "@fortawesome/react-fontawesome": "^0.1.7",
+    // "@fortawesome/react-native-fontawesome": "^0.1.0",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
-    "react-scripts": "3.2.0"
+    "react-flip-move": "^3.0.4",
+    "react-scripts": "3.2.0",
+    "tachyons": "^4.11.1"
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeplloy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
